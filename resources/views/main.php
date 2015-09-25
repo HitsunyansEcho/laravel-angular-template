@@ -9,7 +9,7 @@
     <title>F^3</title>
 
     <link rel="shortcut icon" href="favicon.ico">
-    <!-- <link rel="stylesheet" href="css/main.css" />  -->
+    <link rel="stylesheet" href="css/main.css" />
 
     <script type="text/javascript" src="js/vendors/modernizr.min.js"></script>
 </head>
