@@ -1,5 +1,26 @@
-body
-  @include container-fixed()
-
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak
   display: none !important
+
+body
+  @include container-fixed()
+  font-size: 1.3vw
+  color: #000000
+  font-family: Calibri Light, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif
+
+html, body
+  height: 100%
+  max-width: 100%
+  overflow-x: hidden
+
+div
+  & > a
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    text-decoration: none
+    z-index: 10
+    background-color: #FFF
+    opacity: 0
+    filter: alpha(opacity=1)
