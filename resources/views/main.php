@@ -9,9 +9,9 @@
     <title>F^3</title>
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="/css/main.css" />
 
-    <script type="text/javascript" src="js/vendors/modernizr.min.js"></script>
+    <script type="text/javascript" src="/js/vendors/modernizr.min.js"></script>
 
     <base href="/index.php" />
 </head>
@@ -24,19 +24,19 @@
 
 <!--
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery-2.1.4.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="/js/vendors/jquery/jquery-2.1.4.min.js"><\/script>')</script>
 -->
-<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="/js/plugins.js"></script>
 
-<script type="text/javascript" src="js/vendors/angular/angular.js"></script>
-<script type="text/javascript" src="js/vendors/angular/angular-route.js"></script>
-<script type="text/javascript" src="js/vendors/angular/angular-resource.js"></script>
+<script type="text/javascript" src="/js/vendors/angular/angular.js"></script>
+<script type="text/javascript" src="/js/vendors/angular/angular-route.js"></script>
+<script type="text/javascript" src="/js/vendors/angular/angular-resource.js"></script>
 
-<script type="text/javascript" src="js/init.js"></script>
-<script type="text/javascript" src="js/routing.js"></script>
+<script type="text/javascript" src="/js/init.js"></script>
+<script type="text/javascript" src="/js/routing.js"></script>
 
 <!-- Controllers -->
-<script type="text/javascript" src="js/controllers/mainController.js"></script>
+<script type="text/javascript" src="/js/controllers/mainController.js"></script>
     
 <!-- Services -->
 
@@ -47,7 +47,7 @@
 <!-- Filters -->
 
     
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
 <script>
