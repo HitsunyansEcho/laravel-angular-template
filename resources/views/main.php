@@ -1,17 +1,19 @@
 <!doctype html>
 <html lang="en" ng-app="f3">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>F^3</title>
 
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/main.css" />
 
     <script type="text/javascript" src="js/vendors/modernizr.min.js"></script>
+
+    <base href="/index.php" />
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -21,8 +23,8 @@
 <ng-view ng-cloak></ng-view>
 
 <!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendors/jquery/jquery-2.1.4.min.js"><\/script>')</script>
 -->
 <script type="text/javascript" src="js/plugins.js"></script>
 
